@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.App {
+  background-image: url('./images/cloud.png');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease-out;
+}
+
+.Appsun {
+  background-image: url('./images/sun.png');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease-out;
+}
+
+.Appcold {
+  background-image: url('./images/cold.png');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease-out;
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+  padding: 25px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box, .search-bar {
+  display: block;
+  width: 100%;
+  padding: 20px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px;
+  margin-top: -25px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+
+  color: #111;
+  font-size: 24px;
+
+  transition: 0.4s ease;
+}
+
+.location-box, .location {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.location-box, .date {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.weather-box {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.weather-box, .temp {
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 20px;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 800;
+  text-shadow: darkslategray 2px 2px;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box, .weather {
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: darkslategray 2px 2px;
+}
+
